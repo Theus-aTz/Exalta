@@ -27,7 +27,7 @@ ul {
     color: white;
     font-size: 33px;
     transition: 0.3s;
-    border-left: 4px solid #0f0f34;
+    border-left: 4px solid #41521f;
 }
 
 #logo {
@@ -53,7 +53,7 @@ ul {
     justify-content: space-between;
     /* background: #7233cd; */
     background: rgb(15, 15, 52);
-    background: linear-gradient(90deg, rgba(15, 15, 52, 1) 0%, rgba(57, 16, 115, 1) 31%, rgba(114, 51, 205, 1) 69%);
+    background: #a4b48c;
     box-shadow: 3px 3px 6px #b1b1b1;
 }
 
@@ -108,7 +108,7 @@ ul {
         width: 15em;
         top: 70px;
         right: 0px;
-        background: #7233cd;
+        background: #a4b48c;
         transition: 0.6s;
         z-index: 1000;
         height: 0px;
@@ -193,7 +193,7 @@ ul {
     height: auto;
     margin-top: 10px;
     padding: 50px;
-    background-color: #0f0f34;
+    background-color: #41521f;
     box-shadow: 3px 3px 6px #b1b1b1
 }
 
@@ -230,7 +230,7 @@ ul {
 .section-banner-home .texto-banner a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: #7233cd;
+    background-color: #a4b48c;
     padding: 4px 14px;
     font-size: 15px;
     transition: 0.3s;
@@ -306,7 +306,7 @@ ul {
 /* Inicio Estilo Novidades */
 
 .novidades {
-    background: #0f0f34;
+    background: #41521f;
 }
 
 .novidades .text-body {
@@ -332,7 +332,7 @@ ul {
     color: #e7e7e7;
     font-size: 18px;
     font-weight: bold;
-    background: #7233cd;
+    background: #a4b48c;
     margin: 30px 0px;
     width: 25%;
 }
@@ -483,7 +483,7 @@ ul {
     height: auto;
     color: white;
     background: rgb(15, 15, 52);
-    background: linear-gradient(90deg, rgba(15, 15, 52, 1) 0%, rgba(57, 16, 115, 1) 31%, rgba(114, 51, 205, 1) 69%);
+    background: #a4b48c;
 }
 
 .rodape .container #logo-rodape {
