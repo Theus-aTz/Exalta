@@ -54,7 +54,7 @@ ul {
     justify-content: space-between;
     /* background: #7233cd; */
     background: rgb(15, 15, 52);
-    background: linear-gradient(90deg, rgba(15, 15, 52, 1) 0%, rgba(57, 16, 115, 1) 31%, rgba(114, 51, 205, 1) 69%);
+    background: #a4b48c;
     box-shadow: 3px 3px 6px #b1b1b1;
 }
 
@@ -109,7 +109,7 @@ ul {
         width: 15em;
         top: 70px;
         right: 0px;
-        background: #7233cd;
+        background: #a4b48c;
         transition: 0.6s;
         z-index: 1000;
         height: 0px;
@@ -142,7 +142,7 @@ ul {
         /* Para aumentar ou diminuir a espessura da linha do hamburguer  */
         width: 35px;
         /* Para alterar a largura do hamburger */
-        color: #0f0f34;
+        color: #a4b48c;
         /* Para alterar a cor do hamburger */
     }
     #hamburger::after,
@@ -191,7 +191,7 @@ ul {
     height: auto;
     margin-top: 10px;
     padding: 50px;
-    background-color: #0f0f34;
+    background-color: #a4b48c;
     box-shadow: 3px 3px 6px #b1b1b1
 }
 
@@ -228,7 +228,7 @@ ul {
 .section-banner-home .texto-banner a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: #7233cd;
+    background-color: #a4b48c;
     padding: 4px 14px;
     font-size: 15px;
     transition: 0.3s;
@@ -276,7 +276,7 @@ ul {
     color: #e7e7e7;
     font-size: 18px;
     font-weight: bold;
-    background: #0f0f34;
+    background: #a4b48c;
     margin: 30px 0px;
     width: 25%;
 }
@@ -284,7 +284,7 @@ ul {
 .destaque #saiba-mais:hover {
     font-size: 25px;
     color: white;
-    background: #7233cd;
+    background: #a4b48c;
     text-decoration: none;
     font-weight: bold;
     margin: 30px 0px;
@@ -304,7 +304,7 @@ ul {
 /* Inicio Estilo Novidades */
 
 .novidades {
-    background: #0f0f34;
+    background: #a4b48c
 }
 
 .novidades .text-body {
@@ -329,7 +329,7 @@ ul {
     color: #e7e7e7;
     font-size: 18px;
     font-weight: bold;
-    background: #7233cd;
+    background: #a4b48c;
     margin: 30px 0px;
     width: 25%;
 }
@@ -480,8 +480,8 @@ ul {
     padding: 50px 0px 0px 0px;
     height: auto;
     color: white;
-    background: rgb(15, 15, 52);
-    background: linear-gradient(90deg, rgba(15, 15, 52, 1) 0%, rgba(57, 16, 115, 1) 31%, rgba(114, 51, 205, 1) 69%);
+    background: #a4b48c;
+    background:#a4b48c ;
 }
 
 .rodape .container #logo-rodape {
@@ -605,7 +605,7 @@ ul {
 
 .contact {
     padding: 70px 0;
-    background: #fb5c73;
+    background: #ffdfe4;
 }
 
 .section-title h2 {
