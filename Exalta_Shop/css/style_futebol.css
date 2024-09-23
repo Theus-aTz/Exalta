@@ -54,7 +54,7 @@ ul {
     justify-content: space-between;
     /* background: #7233cd; */
     background: rgb(15, 15, 52);
-    background: #ed174b;
+    background: #a4b48c;
     box-shadow: 3px 3px 6px #b1b1b1;
 }
 
@@ -211,7 +211,7 @@ ul {
     height: auto;
     margin-top: 10px;
     padding: 50px;
-    background-color: #0f0f34;
+    background-color: #41521f;
     box-shadow: 3px 3px 6px #b1b1b1
 }
 
@@ -248,7 +248,7 @@ ul {
 .section-banner-home .texto-banner a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: #7233cd;
+    background-color: #a4b48c;
     padding: 4px 14px;
     font-size: 15px;
     transition: 0.3s;
