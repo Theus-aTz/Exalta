@@ -54,7 +54,7 @@ ul {
     justify-content: space-between;
     /* background: #7233cd; */
     background: rgb(15, 15, 52);
-    background: linear-gradient(90deg, rgba(15, 15, 52, 1) 0%, rgba(57, 16, 115, 1) 31%, rgba(114, 51, 205, 1) 69%);
+    background: #ed174b;
     box-shadow: 3px 3px 6px #b1b1b1;
 }
 
