@@ -324,7 +324,7 @@ ul {
 /* Inicio Estilo Novidades */
 
 .novidades {
-    background: #0f0f34;
+    background: #41521f;
 }
 
 .novidades .text-body {
@@ -349,7 +349,7 @@ ul {
     color: #e7e7e7;
     font-size: 18px;
     font-weight: bold;
-    background: #7233cd;
+    background: #a4b48c;
     margin: 30px 0px;
     width: 25%;
 }
@@ -504,10 +504,10 @@ ul {
     height: auto;
     color: white;
     background: rgb(15, 15, 52);
-    background: linear-gradient(90deg, rgba(15, 15, 52, 1) 0%, rgba(57, 16, 115, 1) 31%, rgba(114, 51, 205, 1) 69%);
+    background: #a4b48c;
 }
 
-.rodape .container #logo-rodape {
+.rodape .container #logo-rodape {   
     padding-top: 47px;
 }
 
