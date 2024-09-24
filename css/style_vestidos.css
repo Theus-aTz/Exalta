@@ -27,7 +27,7 @@ ul {
     color: white;
     font-size: 33px;
     transition: 0.3s;
-    border-left: 4px solid #0f0f34;
+    border-left: 4px solid #41521f;
 }
 
 #logo {
@@ -121,7 +121,7 @@ ul {
         padding-top: 30px;
         padding-bottom: 0px;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        border-bottom: 2px solid #41521f;
     }
     #nav.active #menu {
         height: calc(100vh - 70px);
@@ -142,7 +142,7 @@ ul {
         /* Para aumentar ou diminuir a espessura da linha do hamburguer  */
         width: 35px;
         /* Para alterar a largura do hamburger */
-        color: #a4b48c;
+        color: #41521f;
         /* Para alterar a cor do hamburger */
     }
     #hamburger::after,

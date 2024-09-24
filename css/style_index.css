@@ -27,7 +27,8 @@ ul {
     color: white;
     font-size: 33px;
     transition: 0.3s;
-    border-left: 4px solid #0f0f34;
+    border-left: 4px solid #41521f;
+    
 }
 
 #logo {
@@ -35,13 +36,14 @@ ul {
 }
 
 #logo img {
-    height: 90px;
+    height: 200px;
+    border-top: 10px solid ;
 }
 
 #logo img:hover {
-    box-shadow: 2px 2px 4px #cbcbcb;
+    
     transition: 0.3s;
-    height: 100px;
+    height: 250px;
 }
 
 #header {
@@ -51,9 +53,9 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background: #7233cd; */
+    /* background: #a4b48c; */
     background: rgb(15, 15, 52);
-    background: linear-gradient(90deg, rgba(15, 15, 52, 1) 0%, rgba(57, 16, 115, 1) 31%, rgba(114, 51, 205, 1) 69%);
+    background: linear-gradient(90deg, #41521f 0%, #a4b48c 69%);
     box-shadow: 3px 3px 6px #b1b1b1;
 }
 
@@ -108,7 +110,7 @@ ul {
         width: 15em;
         top: 70px;
         right: 0px;
-        background: #7233cd;
+        background: #a4b48c;
         transition: 0.6s;
         z-index: 1000;
         height: 0px;
@@ -123,7 +125,7 @@ ul {
         padding-top: 30px;
         padding-bottom: 0px;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        border-bottom: 2px solid #41521f;
     }
     #nav.active #menu {
         height: calc(100vh - 70px);
@@ -144,7 +146,7 @@ ul {
         /* Para aumentar ou diminuir a espessura da linha do hamburguer  */
         width: 35px;
         /* Para alterar a largura do hamburger */
-        color: #0f0f34;
+        color: #41521f;
         /* Para alterar a cor do hamburger */
     }
     #hamburger::after,
@@ -193,7 +195,7 @@ ul {
     height: auto;
     margin-top: 10px;
     padding: 50px;
-    background-color: #0f0f34;
+    background-color: #a4b48c;
     box-shadow: 3px 3px 6px #b1b1b1
 }
 
@@ -230,7 +232,7 @@ ul {
 .section-banner-home .texto-banner a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: #7233cd;
+    background-color: #41521f;
     padding: 4px 14px;
     font-size: 15px;
     transition: 0.3s;
@@ -278,7 +280,7 @@ ul {
     color: #e7e7e7;
     font-size: 18px;
     font-weight: bold;
-    background: #0f0f34;
+    background: #41521f;
     margin: 30px 0px;
     width: 25%;
 }
@@ -286,7 +288,7 @@ ul {
 .destaque #saiba-mais:hover {
     font-size: 25px;
     color: white;
-    background: #7233cd;
+    background: #a4b48c;
     text-decoration: none;
     font-weight: bold;
     margin: 30px 0px;
@@ -306,7 +308,7 @@ ul {
 /* Inicio Estilo Novidades */
 
 .novidades {
-    background: #0f0f34;
+    background: #a4b48c;
 }
 
 .novidades .text-body {
@@ -332,7 +334,7 @@ ul {
     color: #e7e7e7;
     font-size: 18px;
     font-weight: bold;
-    background: #7233cd;
+    background: #a4b48c;
     margin: 30px 0px;
     width: 25%;
 }
@@ -483,7 +485,7 @@ ul {
     height: auto;
     color: white;
     background: rgb(15, 15, 52);
-    background: linear-gradient(90deg, rgba(15, 15, 52, 1) 0%, rgba(57, 16, 115, 1) 31%, rgba(114, 51, 205, 1) 69%);
+    background: linear-gradient(90deg, #41521f 0%, #a4b48c 69%);
 }
 
 .rodape .container #logo-rodape {
@@ -499,7 +501,7 @@ ul {
 
 .rodape .container #logo-rodape img:hover {
     transform: scale(1.5);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+
 }
 
 .rodape .info-contato p {
@@ -544,193 +546,3 @@ ul {
 
 
 /* Fim Estilo footer */
-
-
-/* Inicio Estilo Videos */
-
-.embed-container {
-    position: relative;
-    padding-bottom: 0;
-    height: auto;
-    max-width: 100%;
-    margin-top: 0;
-    margin-bottom: 30px;
-    padding-top: 80px;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-}
-
-.embed-container p {
-    text-align: center;
-    font-size: 20px;
-}
-
-.embed-container h2 {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.embed-container iframe {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 250px;
-    border-radius: 1em;
-    box-shadow: gray 0.5em 0.5em 0.3em;
-    transition: transform .3s;
-    display: flex;
-}
-
-.embed-container iframe:hover {
-    flex: 1;
-    z-index: 1;
-    transform: scale(1.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
-}
-
-.embed-container .col-lg-4 {
-    margin-top: 30px;
-}
-
-.embed-container .col-lg-6 {
-    margin-top: 30px;
-}
-
-
-/* Fim Estilo Videos */
-
-
-/* Inicio estilo contato */
-
-.contact {
-    padding: 70px 0;
-    background: #fb5c73;
-}
-
-.section-title h2 {
-    color: #ffffff;
-    font-size: 30px;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    border-bottom: 5px solid #ffffff;
-    padding-bottom: 10px;
-    display: inline-block;
-}
-
-.section-title p {
-    color: #e8e8e8;
-    margin-bottom: 30px;
-}
-
-.contact input,
-.contact textarea {
-    background: #fafafa;
-}
-
-.contact textarea {
-    min-height: 200px;
-    max-width: 100%;
-}
-
-.contact .map {
-    overflow: hidden;
-    border-radius: 4px;
-    height: 70%;
-}
-
-
-/* Inicio estilo marketing place */
-
-.market-place {
-    height: 180px;
-    width: 100%;
-    position: relative;
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.market-place img {
-    height: 160px;
-    width: 100%;
-}
-
-
-/* fim estilo marketing place */
-
-
-/* Fim estilo contato */
-
-
-/* Inicio estilo produtos */
-
-.col-lg-3 .card {
-    border-style: none;
-    border: 0px;
-    min-height: 300px;
-}
-
-.text-center .mb-5 {
-    margin-top: 20px;
-}
-
-.card img {
-    /* height: auto; */
-    width: auto;
-    max-height: 400px;
-}
-
-.bg-image {
-    position: relative;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-}
-
-.card .bg-image img {
-    height: 300px;
-}
-
-.mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    background-attachment: fixed;
-}
-
-.hover-overlay .mask {
-    opacity: 0;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.hover-overlay .mask:hover {
-    opacity: 1;
-}
-
-.card-body .btn {
-    background-color: #ed174b;
-    /* Cor do botão */
-    color: white;
-    /* Cor do texto botão */
-    font-weight: 400;
-    /* Espessura do botão */
-    border: none;
-    outline: 0px solid transparent;
-}
-
-
-/* Fim estilo produtos */
