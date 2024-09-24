@@ -27,7 +27,7 @@ ul {
     color: white;
     font-size: 33px;
     transition: 0.3s;
-    border-left: 4px solid #0f0f34;
+    border-left: 4px solid #41521f;
 }
 
 #logo {
@@ -35,13 +35,14 @@ ul {
 }
 
 #logo img {
-    height: 90px;
+    height: 200px;
+    border-top: 10px solid ;
 }
 
 #logo img:hover {
-    box-shadow: 2px 2px 4px #cbcbcb;
+    
     transition: 0.3s;
-    height: 100px;
+    height: 250px;
 }
 
 #header {
@@ -51,9 +52,10 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background: #7233cd; */
+    /* background: #a4b48c; */
     background: rgb(15, 15, 52);
-    background: linear-gradient(90deg, rgba(15, 15, 52, 1) 0%, rgba(57, 16, 115, 1) 31%, rgba(114, 51, 205, 1) 69%);
+    background: linear-gradient(90deg, #41521f 0%, #a4b48c 69%);
+
     box-shadow: 3px 3px 6px #b1b1b1
 }
 
@@ -75,7 +77,7 @@ ul {
 
 .contact {
     padding: 70px 0px;
-    background: #5a13b8d2;
+    background: #a4b48c;
 }
 
 .section-title h2 {
@@ -84,7 +86,7 @@ ul {
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 8px;
-    border-bottom: 5px solid #42185e;
+    border-bottom: 5px solid #a4b48c;
     padding-bottom: 10px;
     display: inline-block;
 }
@@ -123,7 +125,7 @@ ul {
         width: 15em;
         top: 70px;
         right: 0px;
-        background: #7233cd;
+        background: #a4b48c;
         transition: 0.6s;
         z-index: 1000;
         height: 0px;
@@ -159,7 +161,7 @@ ul {
         /* Para aumentar ou diminuir a espessura da linha do hamburguer  */
         width: 35px;
         /* Para alterar a largura do hamburger */
-        color: #0f0f34;
+        color: #41521f;
         /* Para alterar a cor do hamburger */
     }
     #hamburger::after,
@@ -199,7 +201,8 @@ ul {
     height: auto;
     color: white;
     background: rgb(15, 15, 52);
-    background: linear-gradient(90deg, rgba(15, 15, 52, 1) 0%, rgba(57, 16, 115, 1) 31%, rgba(114, 51, 205, 1) 69%);
+    background: linear-gradient(90deg, #41521f 0%, #a4b48c 69%);
+
 }
 
 .rodape .container #logo-rodape {
