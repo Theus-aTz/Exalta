@@ -74,15 +74,21 @@ ul {
 
 /*  Inicio Estilo carousel */
 
-#carouselExampleInterval .carousel .carousel-item .slide {
-    position: relative;
+#carouselExampleInterval {
+    position: block;
+    display: flex;
+    justify-content: center;
     z-index: 10;
-    padding-top: 10px;
-    box-shadow: 3px 3px 6px #b1b1b1;
-    height: 100%;
-    width: 100%;
-    max-width: 300px;
-    max-height: 300px;
+    margin-top: 10px;
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carouselExampleInterval .carousel-inner .carousel-item img {
+    height: auto;
+    box-shadow: 3px 3px 6px gray;
 }
 
 
