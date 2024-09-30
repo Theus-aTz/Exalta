@@ -85,7 +85,7 @@ ul {
     justify-content: center;
     z-index: 10;
     margin-top: 10px;
-    height: auto;
+    height: 550px;
     width: 20%;
     margin-left: auto;
     margin-right: auto;
@@ -95,6 +95,7 @@ ul {
     height: auto;
     box-shadow: 3px 3px 6px gray;
 }
+
 
 
 /*  Fim Estilo carousel */
@@ -196,8 +197,8 @@ ul {
 }
 
 .section-banner-home img {
-    height: 100%;
-    width: 67%;
+    height: auto;
+    width: 50%;
     display: block;
     margin: auto;
 }
@@ -345,6 +346,12 @@ ul {
     transition: 0.3s;
     width: 25%;
 }
+.novidades img{   
+    padding-top: 15px;
+    height: auto;
+    width: 50%;
+    display: block;
+    margin: auto; }
 
 
 /* Fim Estilo Novidades */
