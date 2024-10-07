@@ -199,7 +199,7 @@ ul {
 
 .section-banner-home img {
     height: auto;
-    width: 40%;
+    width: 250px;
     display: block;
     margin: auto;
 }
@@ -311,7 +311,7 @@ ul {
 }
 
 .novidades .text-body {
-    width: 80%;
+    width: 500px;
     margin: 70px auto;
 }
 
@@ -350,11 +350,13 @@ ul {
     width: 55%;
 }
 .novidades img{   
-    padding-top: 15px;
+    padding-top: 15px 60px;
+    margin:5%;
     height: auto;
-    width: 35%;
-    display: block;
-    margin: auto; }
+    width: 300px;
+    display: flex;
+    /* margin: auto; */
+ }
 
 
 /* Fim Estilo Novidades */
@@ -364,6 +366,7 @@ ul {
 
 .galeria {
     margin: 60px auto 20px;
+    
     /* Quando tivermos 4 valores no margin = top/ right/ bottom / left>                 Exemplo: margin: 60px 60px 60px 60px; */
     /* Quando tivermos 3 valores será = top / right and left / bottom>                  exemplo; margin: 60px auto 60px; */
     /* Quando tivermos 2 valores será = top and botton / right and left>                exemplo: margin: 60px 30px; */
@@ -372,7 +375,7 @@ ul {
 }
 
 .galeria .container {
-    margin-left: 11%;
+    align-items: center;
 }
 
 .galeria h2 {
@@ -393,7 +396,8 @@ ul {
 }
 
 .galeria .gallery img {
-    width: 80%;
+    align-items: center;
+    width: 250px;
     height: 80%;
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
