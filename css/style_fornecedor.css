@@ -74,15 +74,20 @@ ul {
 
 /*  Inicio Estilo carousel */
 
+#carouselExampleInterval .carousel-control-prev,
+.carousel-control-next {
+    color: #000;
+}
+
 #carouselExampleInterval {
     position: block;
     display: flex;
     justify-content: center;
     z-index: 10;
     margin-top: 10px;
-    height: auto;
+    height: 550px;
     width: 50%;
-    margin-left: auto;
+    margin-left: auto;  
     margin-right: auto;
 }
 
@@ -186,7 +191,7 @@ ul {
     height: auto;
     margin-top: 10px;
     padding: 50px;
-    background-color: #41521f;
+    background-color: #a4b48c;
     box-shadow: 3px 3px 6px #b1b1b1
 }
 
@@ -223,7 +228,7 @@ ul {
 .section-banner-home .texto-banner a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: #a4b48c;
+    background-color: #41521f;
     padding: 4px 14px;
     font-size: 15px;
     transition: 0.3s;
