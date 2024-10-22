@@ -315,22 +315,26 @@ ul {
 /* Inicio Estilo Novidades */
 
 .novidades {
-    background: #a4b48c
+    background: white;
+    text-align: justify;
+    padding-left: 15%;
+    
 }
 
 .novidades .text-body {
+    
     width: 500px;
     margin: 70px auto;
 }
 
 .novidades h2 {
-    color: #ffffff;
+    color: #41521f;
     font-size: 50px;
     width: 70%;
 }
 
 .novidades p {
-    color: #ffffff;
+    color: #41521f;
     font-size: 20px;
 }
 
@@ -341,7 +345,7 @@ ul {
     color: white;
     font-size: 18px;
     font-weight: bold;
-    background: #41521f;
+    background: #a4b48c;
     margin: 30px 0px;
     width: 40%;
 }
