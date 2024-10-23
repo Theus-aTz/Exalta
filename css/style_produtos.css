@@ -367,6 +367,7 @@ ul {
     height: auto;
     width: 300px;
     display: flex;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.15) ;
     /* margin: auto; */
  }
 
@@ -430,7 +431,7 @@ ul {
 
 .whatsapp {
     position: fixed;
-    top: 400px;
+    top: 800px;
     right: 20px;
     z-index: 200;
 }
